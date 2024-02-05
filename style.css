@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap'); /* importando a fonte do Google Fonts - importe a fonte de sua preferência */
+
+.cartao { 
+  width: 360px; /* não alterar */
+  height: 520px; /* não alterar */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#aliceCavalcante {
+  background-image: url('bg-Alice.jpeg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.profile_image {
+  width: 150px; 
+  border-radius: 50%;
+}
+
+.title_alice, .subtitle_alice {
+  font-family: 'Sen', sans-serif; 
+  text-align: center;
+}
+
+.title_alice {
+  font-size: 20px;
+}
+
+.subtitle_alice {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.links_alice {
+  display: flex;
+  gap: 12px;
+}
+
+.links_alice img {
+  transition: .6s;
+}
+
+.links_alice img:hover {
+  transform: scale(1.2);
+}
+
+#folders {
+  width: 25px;
+}
